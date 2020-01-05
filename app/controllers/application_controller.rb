@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   helper_method :current_user, :logged_in?
@@ -7,12 +9,12 @@ class ApplicationController < ActionController::Base
   end
 
   def logged_in?
-    !!current_user
+    !current_user.nil?
   end
 
   def require_user
-    if !logged_in?
-      flash[:error]= "You must be logged in."
+    unless logged_in?
+      flash[:error] = 'You must be logged in.'
       redirect_to signin_path
     end
   end

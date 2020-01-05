@@ -5,3 +5,12 @@
 .message-section {
   font-size: 20px;
 }
+#messages {
+  height: 15rem;
+  overflow: auto;
+}
+.input {
+  button {
+    display: none;
+  }
+}

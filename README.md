@@ -1,24 +1,32 @@
-# README
+Ruby On Rails: Micro-Facebook
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Microverse
 
-Things you may want to cover:
+This is The 8th and Final Project of the Microverse Technical Curriculum at Microverse - @microverseinc
 
-* Ruby version
+    This project consists of building a Facebook clone with minimal features using Rails 5
+## Features of the App
+    User [friendships, posts,comments, likes] modules and functionalities.
+    The project was completed using Bootstrap, Devise, RSpec, Omniauth and PostgreSQL.
 
-* System dependencies
+## Languages Used: Ruby, HTML & CSS
 
-* Configuration
+## How to install
 
-* Database creation
+1. Open Terminal
+2. git clone https://github.com/noomdalv/rails_final_project.git
+3. cd rails_final_project
+4. bundle install
+5. rails db:migrate
+6. rails server
 
-* Database initialization
 
-* How to run the test suite
+## Contributors
+### sumancrest0001 (https://github.com/sumancrest0001)
 
-* Services (job queues, cache servers, search engines, etc.)
+### noomdalv (https://github.com/noomdalv)
 
-* Deployment instructions
 
-* ...
+#### License
+
+MIT Licensed
